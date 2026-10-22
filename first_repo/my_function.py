@@ -2,4 +2,10 @@ def my_function():
     print("Hello from my_function" )
 
 def greet_user(name):
-    print("Hello, {name}!")
+    """
+    Print a personalized greeting.
+
+    Args:
+        name(str): The name of the person to greet.
+    """
+    print(f"Hello, {name}!")
